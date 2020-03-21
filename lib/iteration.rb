@@ -9,9 +9,9 @@ def join_ingredients(src)
   outer_results = []
   row_index = 0
   while row_index < src.count do
-  	outer_results << src[row_index]
+  	outer_results <<  "I love #{outer_results[row_index[0]]} and #{outer_results[row_index[1]]} on my pizza"
   	row_index += 1
-    puts "I love #{outer_results[row_index[0]]} and #{outer_results[row_index[1]]} on my pizza"
+
   end
 end
 
