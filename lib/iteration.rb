@@ -18,9 +18,7 @@ def join_ingredients(src)
   	outer_results << inner_results
   	row_index += 1
   end
-  outer_results
   puts "I love #{outer_results[0]} and #{outer_results[1]} on my pizza"
-  join_ingredients[row_index][element_index]
 end
 
 def find_greater_pair(src)
