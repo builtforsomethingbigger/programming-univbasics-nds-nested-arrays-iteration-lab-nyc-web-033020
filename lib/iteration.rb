@@ -6,23 +6,23 @@ def join_ingredients(src)
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
-  outer_results = []
+  new_array = []
   row_index = 0
   while row_index < src.count do
-  	outer_results << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
+  	new_array << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
   	row_index += 1
   end
-  outer_results
+  new_array
 end
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
-  ordered_array = []
+  new_array = []
   row_index = 0
   while row_index < src.count do
-    ordered_array[row_index] = src[row_index].max
+    new_array[row_index] = src[row_index].max
     row_index += 1
   end
   row_index
