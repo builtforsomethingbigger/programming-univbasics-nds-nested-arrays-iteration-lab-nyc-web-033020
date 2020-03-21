@@ -25,7 +25,7 @@ def find_greater_pair(src)
     new_array[row_index] = src[row_index].max
     row_index += 1
   end
-  row_index
+  new_array
 end
 
 def total_even_pairs(src)
