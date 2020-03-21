@@ -12,7 +12,7 @@ def join_ingredients(src)
   	outer_results << src[row_index]
   	row_index += 1
   end
-  puts "I love #{outer_results[row_index][0]} and #{outer_results[row_index][1]} on my pizza"
+  puts "I love #{outer_results[row_index[0]]} and #{outer_results[row_index[1]]} on my pizza"
 end
 
 def find_greater_pair(src)
