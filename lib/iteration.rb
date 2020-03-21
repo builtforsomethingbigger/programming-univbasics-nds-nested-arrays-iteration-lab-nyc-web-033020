@@ -10,9 +10,9 @@ def join_ingredients(src)
   row_index = 0
   while row_index < src.count do
   	outer_results << src[row_index]
-    puts "I love #{outer_results[0]} and #{outer_results[1]} on my pizza"
   	row_index += 1
   end
+  puts "I love #{outer_results[0]} and #{outer_results[1]} on my pizza"
 end
 
 def find_greater_pair(src)
