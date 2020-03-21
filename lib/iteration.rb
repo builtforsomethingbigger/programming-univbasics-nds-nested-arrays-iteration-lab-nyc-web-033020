@@ -12,7 +12,6 @@ def join_ingredients(src)
     new_array << src[row_count]
   end
   puts "I love #{new_array[0]} and #{new_array[1]} on my pizza"
-  join_ingredients
 end
 
 def find_greater_pair(src)
