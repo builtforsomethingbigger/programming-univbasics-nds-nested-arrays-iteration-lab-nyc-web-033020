@@ -14,10 +14,10 @@ def join_ingredients(src)
       while element_index < src[row_index].count do
         inner_results << src[row_index][element_index]
    	    element_index += 1
-  	end
+  	  end
   	outer_results << inner_results
   	row_index += 1
-
+  end
   puts "I love #{outer_results[0]} and #{outer_results[1]} on my pizza"
 end
 
