@@ -11,6 +11,7 @@ def join_ingredients(src)
   while row_count < src.count do
     new_array << src[row_count]
   end
+  row_count += 1
   puts "I love #{new_array[0]} and #{new_array[1]} on my pizza"
 end
 
